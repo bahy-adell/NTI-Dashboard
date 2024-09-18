@@ -1,0 +1,12 @@
+li,a, button {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 18px;
+ &:hover {
+    background-color: #486786; /* لون أزرق غامق عند التحويم */
+    color: #fff; /* لون النص عند التحويم */
+    border-radius: 5%;
+    transition:  0.3s ease;
+  }
+  
+}

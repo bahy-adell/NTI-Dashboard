@@ -1,0 +1,11 @@
+<div class="d-flex">
+    <!-- Sidebar (Menubar) -->
+    @if(isLogin) {
+      <app-menubar class="menu-bar"></app-menubar>
+    }
+  
+    <!-- Content Area (Router Outlet) -->
+    <div class="content-area flex-grow-1">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
